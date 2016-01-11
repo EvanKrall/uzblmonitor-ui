@@ -35,6 +35,7 @@ var MonitorRow = React.createClass({
         <a href="#"
            ref="editableAlias"
            name="alias"
+           title={host}
            data-type="text"
            data-pk={host}
            data-url="/monitor/update_alias"
